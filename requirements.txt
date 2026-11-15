@@ -11,3 +11,4 @@ aiohttp
 h5netcdf
 h5py
 tqdm
+matplotlib

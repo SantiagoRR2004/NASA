@@ -126,6 +126,25 @@
       },
       "problemMatcher": [],
       "dependsOn": "Setup Environment and Install Dependencies"
+    },
+    {
+      "label": "Create graphs",
+      "type": "shell",
+      "command": ".venv/bin/python3 ${workspaceFolder}/graphData.py",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "silent",
+        "focus": false,
+        "panel": "new"
+      },
+      "runOptions": {
+        "runOn": "folderOpen" // Run this task when the folder is opened
+      },
+      "problemMatcher": [],
+      "dependsOn": ["Download Earth Data", "Download Moon Data"]
     }
   ]
 }
