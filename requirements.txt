@@ -1,14 +1,6 @@
 black
-# TODO: Remove extra requirements
+matplotlib
 pandas
 requests
-xarray
-fsspec
-zarr
-netcdf4
-dask
-aiohttp
-h5netcdf
-h5py
 tqdm
-matplotlib
+xarray
